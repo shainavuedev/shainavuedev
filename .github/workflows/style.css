@@ -1,0 +1,94 @@
+/** @format */
+
+body {
+	background-color: white;
+}
+header {
+	text-align: center;
+	display: block;
+}
+h1 {
+	color: #1b31fd;
+	font-family: 'Verdana', Arial, sans-serif;
+	text-align: center;
+	display: block;
+	font-size: 100px;
+}
+h2 {
+	color: #1b31fd;
+	font-family: 'Verdana', Arial, sans-serif;
+	text-align: center;
+	display: block;
+	font-size: 25px;
+}
+h3 {
+	color: #1b31fd;
+	font-family: 'Verdana', Arial, sans-serif;
+	text-align: center;
+	display: block;
+	font-size: 20px;
+}
+p {
+	font-family: 'Verdana', Arial, sans-serif;
+	font-size: medium;
+	text-align: center;
+	display: block;
+	margin: 0.5in;
+	color: #000;
+}
+img {
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 25%;
+}
+a {
+	color: #1b31fd;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	display: block;
+	font-weight: bold;
+}
+.songs {
+	font-family: 'Times New Roman', Times, serif;
+	list-style-position: inside;
+	text-align: center;
+	color: #000;
+}
+.navbar {
+	width: 100%;
+	background-color: #1b31fd;
+	overflow: auto;
+}
+.navbar a {
+	float: left;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	width: 31.9%;
+	text-align: center;
+	display: block;
+}
+.navbar a:hover {
+	background-color: #000;
+}
+@media screen and (max-width: 800px) {
+	.navbar a {
+		float: none;
+		display: flex;
+		width: 100%;
+		text-align: left;
+	}
+}
+#exciting {
+	background: linear-gradient(to bottom, #fff, #1b31fd);
+	border: 1px solid #696969;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 1px black;
+}
+#exciting:before {
+	content: 'ℹ️';
+	margin-right: 5px;
+}
