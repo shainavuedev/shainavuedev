@@ -1,0 +1,483 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RWS Tarot 🃏</title>
+		<style>
+			body {
+				background-image: linear-gradient(to bottom left, midnightblue, gold);
+				border-style: ridge;
+				border-color: gold;
+			}
+			p {
+				text-align: center;
+				color: white;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+				font-size: medium;
+				line-height: 1.6;
+			}
+			button {
+				display: block;
+				margin: 0 auto;
+			}
+			footer {
+				text-align: center;
+				color: white;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+			}
+			.button {
+				padding: 15px 25px;
+				font-size: 24px;
+				text-align: center;
+				cursor: pointer;
+				outline: none;
+				color: white;
+				background-color: gold;
+				border: none;
+				border-radius: 15px;
+				box-shadow: 0 9px #999;
+				transition: 2s;
+			}
+			.button:hover {
+				background-color: midnightblue;
+			}
+			.button:active {
+				background-color: gold;
+				box-shadow: 0 5px #666;
+				transform: translateY(4px);
+			}
+			.page-header {
+				text-align: center;
+				color: white;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+			}
+			.trump-cards {
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+				width: 200;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+				font-weight: bold;
+			}
+			.major-arcana {
+				text-align: center;
+				color: white;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+				font-weight: bold;
+			}
+			.minor-arcana {
+				text-align: center;
+				color: white;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+				font-weight: bold;
+			}
+			.suit-wands {
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+				font-weight: bold;
+			}
+			.suit-cups {
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+				font-weight: bold;
+			}
+			.suit-swords {
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+				font-weight: bold;
+			}
+			.suit-pentacles {
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="page-header">
+			<h1>Rider Waite-Smith Tarot</h1>
+			<hr />
+			<h2><em>The most popular tarot deck in the world!</em></h2>
+			<br />
+		</header>
+		<button onclick="document.getElementById('demo').innerHTML=Date()">What time is it?</button>
+		<p id="demo"></p>
+		<p>To learn more about the Tarot click "Learn About Tarot" below.</p>
+		<button class="button">
+			<a href="https://en.wikipedia.org/wiki/Tarot" target="_blank">Learn About Tarot</a>
+		</button>
+		<br />
+		<section class="major-arcana">
+			<h3><strong>The Major Arcana</strong></h3>
+		</section>
+		<p>
+			The <span style="color: gold">Major Arcana</span> consists of 22 cards and represents the
+			trump cards of the tarot deck. Numbered from 0 to 21 starting with The Fool and ends with The
+			World.
+		</p>
+		<p><strong>Trump Cards</strong></p>
+		<div class="trump-cards">
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/357/original/RWS_Tarot_00_Fool.jpg?1641610493"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/360/original/RWS_Tarot_01_Magician.jpg?1641620221"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/361/original/RWS_Tarot_02_High_Priestess.jpg?1641620978"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/362/original/RWS_Tarot_03_Empress.jpg?1641622363"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/363/original/RWS_Tarot_04_Emperor.jpg?1641625498"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/365/original/RWS_Tarot_05_Hierophant.jpg?1641629234"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/366/original/RWS_Tarot_06_Lovers.jpg?1641630404"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/367/original/RWS_Tarot_07_Chariot.jpg?1641630647"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/368/original/RWS_Tarot_08_Strength.jpg?1641630988"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/369/original/RWS_Tarot_09_Hermit.jpg?1641633035"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/370/original/RWS_Tarot_10_Wheel_of_Fortune.jpg?1641633518"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/371/original/RWS_Tarot_11_Justice.jpg?1641633804"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/373/original/RWS_Tarot_12_Hanged_Man.jpg?1641634676"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/374/original/RWS_Tarot_13_Death.jpg?1641634900"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/376/original/RWS_Tarot_14_Temperance.jpg?1641637229"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/377/original/RWS_Tarot_15_Devil.jpg?1641637345"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/378/original/RWS_Tarot_16_Tower.jpg?1641638343"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/430/original/RWS_Tarot_17_Star.jpg?1641668009"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/432/original/RWS_Tarot_18_Moon.jpg?1641668130"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/433/original/RWS_Tarot_19_Sun.jpg?1641668286"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/434/original/RWS_Tarot_20_Judgement.jpg?1641668316"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/435/original/RWS_Tarot_21_World.jpg?1641668345"
+				width="200"
+			/>
+		</div>
+
+		<section class="minor-arcana">
+			<h3><strong>The Minor Arcana</strong></h3>
+		</section>
+		<p>
+			The <span style="color: gold">Minor Arcana</span> consists of 56 cards and represents the
+			suits of Wands, Cups, Swords and Pentacles. Each suit have cards 1 to 10 and court cards of
+			the Page, Knight, Queen and King.
+		</p>
+		<p><strong>Suit of Wands</strong></p>
+		<div class="suit-wands">
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/436/original/Wands01.jpg?1641670182"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/437/original/Wands02.jpg?1641670749"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/438/original/Wands03.jpg?1641670845"
+				width="200"
+				class="image"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/439/original/Wands04.jpg?1641670873"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/440/original/Wands05.jpg?1641670895"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/445/original/Wands06.jpg?1641679635"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/446/original/Wands07.jpg?1641679727"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/447/original/Wands08.jpg?1641679775"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/448/original/Wands09.jpg?1641679858"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/449/original/Wands10.jpg?1641679983"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/450/original/Wands11.jpg?1641680058"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/451/original/Wands12.jpg?1641680113"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/452/original/Wands13.jpg?1641680136"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/453/original/Wands14.jpg?1641680167"
+				width="200"
+			/>
+		</div>
+		<p><strong>Suit of Cups</strong></p>
+		<div class="suit-cups">
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/454/original/Cups01.jpg?1641680217"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/455/original/Cups02.jpg?1641680256"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/456/original/Cups03.jpg?1641680465"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/457/original/Cups04.jpg?1641680508"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/458/original/Cups05.jpg?1641680531"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/459/original/Cups06.jpg?1641680569"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/460/original/Cups07.jpg?1641680598"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/461/original/Cups08.jpg?1641680771"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/462/original/Cups09.jpg?1641681967"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/471/original/Cups10.jpg?1641685671"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/472/original/Cups11.jpg?1641685738"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/474/original/Cups12.jpg?1641685772"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/475/original/Cups13.jpg?1641685822"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/476/original/Cups14.jpg?1641685860"
+				width="200"
+			/>
+		</div>
+		<p><strong>Suit of Swords</strong></p>
+		<div class="suit-swords">
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/477/original/Swords01.jpg?1641686146"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/478/original/Swords02.jpg?1641686176"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/479/original/Swords03.jpg?1641687972"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/480/original/Swords04.jpg?1641687996"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/481/original/Swords05.jpg?1641688016"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/482/original/Swords06.jpg?1641688204"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/483/original/Swords07.jpg?1641688290"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/493/original/Swords08.jpg?1641700406"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/494/original/Swords09.jpg?1641700458"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/495/original/Swords10.jpg?1641702781"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/496/original/Swords11.jpg?1641702854"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/497/original/Swords12.jpg?1641702897"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/498/original/Swords13.jpg?1641702915"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/501/original/Swords14.jpg?1641703373"
+				width="200"
+			/>
+		</div>
+		<p><strong>Suit of Pentacles</strong></p>
+		<div class="suit-pentacles">
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/503/original/Pents01.jpg?1641703450"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/504/original/Pents02.jpg?1641703506"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/505/original/Pents03.jpg?1641703579"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/506/original/Pents04.jpg?1641703589"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/507/original/Pents05.jpg?1641703985"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/508/original/Pents06.jpg?1641703996"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/509/original/Pents07.jpg?1641704050"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/510/original/Pents08.jpg?1641704063"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/511/original/Pents09.jpg?1641704222"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/512/original/Pents10.jpg?1641704231"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/514/original/Pents11.jpg?1641704275"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/515/original/Pents12.jpg?1641704290"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/516/original/Pents13.jpg?1641704371"
+				width="200"
+			/>
+			<img
+				src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/024/517/original/Pents14.jpg?1641704381"
+				width="200"
+			/>
+		</div>
+		<br />
+		<button onclick="myFunction()">Click me</button>
+		<p id="tarot"></p>
+		<br />
+		<footer><strong>Made by Shaina Vue</strong></footer>
+	</body>
+	<script>
+		alert('Welcome!');
+		let firstname = prompt('What is your first name?');
+		alert('Hello ' + firstname + '!');
+		let age = prompt('How old are you ' + firstname + '?');
+		if (age > 16) {
+			alert('Thank you ' + firstname + '! You may enter.');
+		} else {
+			alert('Sorry, ' + firstname + ', you do not have access.');
+		}
+		function myFunction() {
+			document.getElementById('tarot').innerHTML = 'Tarot is Awesome!';
+		}
+	</script>
+</html>
