@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @shainavuecodes
+- 👋 Hi, I’m @shainavuedev
 - 👀 I’m interested in web development.
 - 🌱 I’m currently learning HTML, CSS, and JavaScript.
 - 💞️ I’m looking to collaborate on projects in UI/UX design and developing websites.
